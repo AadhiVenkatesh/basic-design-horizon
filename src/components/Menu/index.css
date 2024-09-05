@@ -1,0 +1,22 @@
+.menu-icons {
+  list-style-type: none;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+}
+
+.each-icon {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+
+  padding-right: 4px;
+}
+
+@media (min-width: 576px) {
+  .each-icon {
+    padding-right: 28px;
+    font-size: 20px;
+  }
+}

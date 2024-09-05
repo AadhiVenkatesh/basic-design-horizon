@@ -1,0 +1,47 @@
+.menu-item-page {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* Make the container full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Ensure the image container is full height */
+}
+
+.menu-item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+}
+
+.shadow-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px; /* Height of the shadow */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+
+.menu-item-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 12px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  z-index: 10; /* Ensure the title is above the shadow */
+}
+
+@media (min-width: 576px) {
+  .menu-item-title {
+    font-size: 20px;
+  }
+}
