@@ -1,3 +1,22 @@
+React Dynamic Menu with Language Selection and Routing
+
+Project Overview
+
+This project is a simple React web application that dynamically updates the content of a navigation menu based on the selected language. It also includes full-screen images for each menu item and allows users to navigate between different pages using react-router-dom.
+
+Features
+
+Dynamic language selection for menu items (supports English, French, German, Russian, Spanish, Chinese).
+Routing between different pages (Home, Movies, TV Shows, Sports, Live).
+Each page is dynamically rendered based on the menu item clicked.
+404 page handling for unmatched routes.
+Fully responsive design.
+Technologies Used
+React: Frontend framework for building user interfaces.
+React Router (react-router-dom): Used for routing between different pages.
+CSS: For styling the components.
+JavaScript (ES6): Core language for building the app.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
